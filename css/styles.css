@@ -52,6 +52,9 @@ body {
 .web{
   color: var(--accent-color);
 }
+.webstudio-footer {
+  color: var(--primary-white);
+}
 .header-links {
   font-style: normal;
   font-weight: 500;
@@ -121,7 +124,7 @@ ul {
 .link:visited {
   color: var(--primary-text-color);
 }
- .link.current {
+ .current {
   color: var(--accent-color);
 }
 
@@ -158,9 +161,12 @@ ul {
   color: var(--primary-white);
   background-color: var(--button-active-color);
 }
-
-
-.features {
+/*
+.features{
+  background-color: var(--primary-background);
+}
+*/
+.features-list {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -177,24 +183,21 @@ ul {
 
   color: var(--primary-text-color);
 }
-p {
+.portfolio-text {
 font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+font-size: 16px;
+line-height: 1.88;
 letter-spacing: 0.03em;
 color:var(--secondary-text-color);
 }
 
-.section1 {
-  background-color: var(--primary-background);
-}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 .h3 {
@@ -204,30 +207,31 @@ color:var(--secondary-text-color);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.section2 {
+.section-ourteam{
   background-color: var(--section2-color);
 }
 .footer {
   background-color: var(--hero-color);
   
 }
-.contacts{
+/*.contacts{
     color: var(--contacts-color);
     
 }
-
-.contantacts-footer{
+*/
+.contacts-footer {
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
+  }
+.footer .contacts-footer{
 color: var(--contacts-color);
 
-
-    }
+}
 /*-----Portfolio----*/
 .button-white {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.71;
@@ -238,7 +242,6 @@ background-color: var(--section2-color);
 cursor: pointer;
 }
 .button-white:hover {
-  color: var(--primary-white-color);
+  color: var(--primary-white);
   background-color: var(--accent-color);
 }
-
